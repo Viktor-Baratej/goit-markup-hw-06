@@ -18,12 +18,19 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/features.css" />
+    <link rel="stylesheet" href="./css/team.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
   </head>
 
   <body>
     <!-- Header -->
 
-    <header class="header">
+    <header>
       <div class="container header-container">
         <nav class="nav">
           <a href="./index.html" class="logo header-logo"
@@ -55,26 +62,105 @@
             </li>
           </ul>
         </address>
+
+
+        <!-- mob-menu-btn -->
+
+        <button class="mob-menu-btn" type="button" data-menu-open>
+          <svg class="mob-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-mob-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- mob-menu -->
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" type="button" data-menu-close>
+            <svg class="mobile-menu-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu-first">
+            <ul class="mobile-menu-list">
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link is-active" href="./index.html">Studio</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        
+        <address>
+          <ul class="mobile-contacts-list">
+            <li class="mobile-contacts-item">
+              <a class="mobile-contacts-link is-active" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-contacts-item">
+              <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <div class="mobile-social-link">
+          <ul class="mobile-icons-list">
+                    <li class="mobile-icons-item">
+                      <a class="mobile-icons-link" href="#">
+                        <svg class="mobile-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-instagram-2"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="mobile-icons-item">
+                      <a class="mobile-icons-link" href="#">
+                        <svg class="mobile-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-twitter-1"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="mobile-icons-item">
+                      <a class="mobile-icons-link" href="#">
+                        <svg class="mobile-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-facebook-1"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="mobile-icons-item">
+                      <a class="mobile-icons-link" href="#">
+                        <svg class="mobile-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+        </div>
+        </div>
       </div>
     </header>
-
-    <!-- Main section -->
-
     <main>
       <!-- hero section -->
 
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="btn order-btn" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
 
       <!-- features section-->
 
-      <section class="features">
+      <!-- <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-list">
@@ -132,11 +218,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Our Team section -->
 
-      <section class="team">
+      <!-- <section class="team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
@@ -310,11 +396,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Our Portfolio section-->
 
-      <section class="portfolio">
+      <!-- <section class="portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -435,11 +521,11 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <!-- footer -->
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-content">
         <div class="footer-info">
           <a class="logo footer-logo" href="./index.html"
@@ -482,11 +568,11 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
         <!-- subscribe -->
 
-        <div class="subscribe">
+        <!-- <div class="subscribe">
           <p class="subscribe-title">Subscribe</p>
           <form class="subscribe-form" name="subscribe-form" autocomplete="off">
             <label class="subscribe-label">
@@ -506,11 +592,11 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- MODAL -->
 
-    <div class="modal-overlay" data-modal>
+    <!-- <div class="modal-overlay" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -605,6 +691,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>
