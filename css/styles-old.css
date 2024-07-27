@@ -1,27 +1,3 @@
-.subscribe {
-  margin-left: auto;
-}
-
-.subscribe-form {
-  gap: 24px;
-  display: flex;
-}
-
-.subscribe-btn {
-  min-width: 165px;
-  text-align: center;
-  fill: #fff;
-  display: flex;
-  padding: 8px 24px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.subscribe-btn-icon {
-  margin-left: 16px;
-  fill: #fff;
-}
-
 .modal-overlay {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
