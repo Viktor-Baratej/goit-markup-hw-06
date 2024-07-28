@@ -191,8 +191,9 @@
   }
 
   .footer-content {
-    flex-direction: row;
     flex-wrap: nowrap;
     max-width: 1158px;
+    gap: 0;
+    margin: 0 auto;
   }
 }
