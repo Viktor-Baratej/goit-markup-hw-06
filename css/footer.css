@@ -139,7 +139,7 @@
   fill: #fff;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .footer-content {
     flex-direction: row;
     flex-wrap: wrap;
@@ -177,9 +177,8 @@
   }
 }
 
-@media (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .footer {
-    display: block;
     padding: 100px 0;
   }
 
@@ -194,8 +193,6 @@
   .footer-content {
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 0;
-    max-width: none;
-    margin: 0;
+    max-width: 1158px;
   }
 }

@@ -83,7 +83,7 @@
   color: #434455;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .portfolio-list {
     gap: 72px 24px;
   }
@@ -93,7 +93,7 @@
   }
 }
 
-@media (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .portfolio-list {
     gap: 48px 24px;
     margin-bottom: 120px;
