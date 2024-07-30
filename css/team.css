@@ -20,6 +20,10 @@
   background: #fff;
 }
 
+.team-item-content {
+  padding: 32px 0px;
+}
+
 .team-title {
   font-weight: 500;
   font-size: 20px;
@@ -27,7 +31,7 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  padding-top: 32px;
+
   margin-bottom: 8px;
 }
 
@@ -47,7 +51,6 @@
   justify-content: center;
   flex-direction: row;
   gap: 24px;
-  padding-bottom: 32px;
 }
 
 .team-icons-link {

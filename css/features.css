@@ -8,12 +8,12 @@
   margin-bottom: 8px;
   align-items: center;
   justify-content: center;
-  padding: 24px 100px;
+  padding: 24px 0px;
 }
 
 .features-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 72px;
@@ -44,7 +44,6 @@
 
 @media screen and (min-width: 768px) {
   .features-list {
-    flex-flow: row wrap;
     gap: 72px 24px;
   }
 
