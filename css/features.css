@@ -31,7 +31,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .features-description {
@@ -40,10 +40,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.features {
-  padding: 96px 16px;
 }
 
 @media screen and (min-width: 768px) {

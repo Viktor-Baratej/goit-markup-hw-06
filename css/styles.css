@@ -36,10 +36,6 @@ a {
   color: currentColor;
 }
 
-
-
-
-
 .section-title {
   font-weight: 700;
   text-transform: capitalize;
@@ -49,7 +45,6 @@ a {
   text-align: center;
   color: #2e2f42;
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -68,6 +63,17 @@ a {
   max-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
+}
+
+.hero,
+.features,
+.team,
+.portfolio {
+  padding: 96px 0;
+}
+
+.section-title {
+  padding-bottom: 72px;
 }
 
 @media screen and (min-width: 768px) {

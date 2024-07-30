@@ -230,13 +230,16 @@
   color: #404bbf;
 }
 
+.mobile-adres {
+  margin-bottom: 48px;
+}
+
 .mobile-contacts-list {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
 }
 
 .mobile-contacts-item {

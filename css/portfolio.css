@@ -1,18 +1,13 @@
-.section-title {
-  margin-bottom: 72px;
-}
-
 .portfolio-list {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 48px 24px;
-  margin-bottom: 96px;
 }
 
 .portfolio-item {
-  max-width: 288px;
+  max-width: 356px;
   width: 100%;
   cursor: pointer;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -95,7 +90,6 @@
 @media screen and (min-width: 1158px) {
   .portfolio-list {
     gap: 48px 24px;
-    margin-bottom: 120px;
   }
 
   .portfolio-item {
