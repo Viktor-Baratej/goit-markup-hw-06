@@ -87,4 +87,11 @@ a {
     max-width: 1158px;
     padding: 0 15px;
   }
+
+  .hero,
+  .features,
+  .team,
+  .portfolio {
+    padding: 120px 0;
+  }
 }
