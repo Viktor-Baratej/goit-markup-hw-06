@@ -1,86 +1,82 @@
-
 .features-icon {
-    display: none;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    height: 100%;
-    background-color: #f4f4fd;
-    margin-bottom: 8px;
-    align-items: center;
-    justify-content: center;
-    padding: 24px 100px;
-  }
+  display: none;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 100%;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 100px;
+}
 
 .features-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 72px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+}
 
-  .features-item {
-    max-width: 288px;
-    width: 100%;
-  }
+.features-item {
+  max-width: 288px;
+  width: 100%;
+}
 
 .features-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.12;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-description {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .features {
-  margin-bottom: 96px;
+  padding: 96px 16px;
 }
 
-
-
 @media screen and (min-width: 768px) {
-    .features-list {
-        flex-flow: row wrap;
-        gap: 72px 24px;
-      }
+  .features-list {
+    flex-flow: row wrap;
+    gap: 72px 24px;
+  }
 
-      .features-title {
-        text-align: left;
-      }
+  .features-title {
+    text-align: left;
+  }
 
-      .features-item {
-        max-width: calc((100% - 24px) / 2);
-      }
-    }
+  .features-item {
+    max-width: calc((100% - 24px) / 2);
+  }
+}
 
+@media screen and (min-width: 1158px) {
+  .features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
 
-    @media screen and (min-width: 1158px) {
-        .features-title {
-            font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-        }
+  .features-description {
+    font-weight: 400;
+  }
 
-        .features-description {
-            font-weight: 400;
-        }
+  .features-icon {
+    display: flex;
+  }
 
-        .features-icon {
-            display: flex;
-        }
-
-        .features-item {
-            max-width: calc((100% - 72px) / 4);
-          }
-    }
+  .features-item {
+    max-width: calc((100% - 72px) / 4);
+  }
+}
